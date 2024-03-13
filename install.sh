@@ -1,7 +1,9 @@
 # See <https://github.com/samchristywork/stopm>, or install these plugins using
 # your favorite plugin manager.
 
+./stopm.sh L3MON4D3 LuaSnip
 ./stopm.sh akinsho bufferline.nvim
+./stopm.sh axkirillov hbac.nvim
 ./stopm.sh chrisbra unicode.vim
 ./stopm.sh folke tokyonight.nvim
 ./stopm.sh github copilot.vim
@@ -12,7 +14,6 @@
 ./stopm.sh L3MON4D3 LuaSnip
 ./stopm.sh lewis6991 gitsigns.nvim
 ./stopm.sh neovim nvim-lspconfig
-./stopm.sh nvim-lualine lualine.nvim
 ./stopm.sh nvim-lua plenary.nvim
 ./stopm.sh nvim-telescope telescope.nvim
 ./stopm.sh nvim-tree nvim-web-devicons

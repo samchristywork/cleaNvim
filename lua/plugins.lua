@@ -12,3 +12,11 @@ require("nvim-treesitter.configs").setup {
     additional_vim_regex_highlighting = false,
   },
 }
+require("hbac").setup({
+  autoclose = true,
+  threshold = 3,
+  close_command = function(bufnr)
+    vim.api.nvim_buf_delete(bufnr, {})
+  end,
+  close_buffers_with_windows = false,
+})
