@@ -2,6 +2,7 @@ vim.g.mapleader = ";"
 vim.api.nvim_set_keymap('n', '', 'g', {})
 vim.api.nvim_set_keymap('n', '<F8>', ':TagbarToggle<CR>', {})
 vim.api.nvim_set_keymap('n', '<leader><leader>', ':Telescope git_files<CR>', {})
+vim.api.nvim_set_keymap('n', '<leader>g', ':Telescope live_grep<CR>', {})
 vim.api.nvim_set_keymap('n', '<leader>s', ':Gitsigns stage_hunk<CR>', {})
 vim.api.nvim_set_keymap('n', 'E', ':bp<CR>', {})
 vim.api.nvim_set_keymap('n', 'H', '10h', {})
